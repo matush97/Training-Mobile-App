@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridItemActivity">
+
+    <TextView
+        android:id="@+id/gridData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:text="Bench Press"
+        android:textColor="#000"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gridData"
+        android:src="@drawable/bench_press"
+        android:layout_marginTop="27dp"
+        />
+
+    <TextView
+        android:id="@+id/textInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="238dp"
+        android:text="Information sdhajdc j dadk a sadjka sdka" />
+
+    <EditText
+        android:id="@+id/barbellWeight"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="174dp"
+        android:hint="@string/barbellWeight"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/numberRepeating"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="126dp"
+        android:hint="@string/numberRepaiting"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="132dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:text="@string/result"
+        android:gravity="center"/>
+
+</RelativeLayout>

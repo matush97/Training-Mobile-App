@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Training App</string>
+    <string name="shoulders">Ramená</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="legs">Nohy</string>
+    <string name="back">Chrbát</string>
+    <string name="chest">Hrudník</string>
+    <string name="welcome_to_training_application">Vítajte :)</string>
+    <string name="barbellWeight">Váha činky</string>
+    <string name="numberRepaiting">Počet opakovaní</string>
+    <string name="calculate">Výpočet</string>
+    <string name="result">Výsledok</string>
+</resources>
